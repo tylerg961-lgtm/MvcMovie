@@ -19,10 +19,16 @@
     <PackageReference Include="xunit.extensibility.core" Version="2.9.2" />
   </ItemGroup>
 	<ItemGroup>
-		<Compile Remove ="Tests\**\*.cs" />
-		<None Include ="Tests\**\*.cs" />
-		<Compile Remove ="obj\**\*.cs" />
-		<Compile Remove ="bin\**\*.cs" />
+		<Compile Remove="Tests\**\*.cs" />
+		<None Include="Tests\**\*.cs" />
+		<Compile Remove="obj\**\*.cs" />
+		<Compile Remove="bin\**\*.cs" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Content Include="Screenshot.png">
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
 	</ItemGroup>
 	
 </Project>
