@@ -33,4 +33,4 @@
 
 ## Screenshot
 
-![Product Listing](screenshot.png)
+![Index](screenshot.png)
