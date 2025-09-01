@@ -33,4 +33,4 @@
 
 ## Screenshot
 
-![Index](screenshot.png)
+![Index](https://github.com/tylerg961-lgtm/MvcMovie/blob/master/Screenshot.png?raw=true)
